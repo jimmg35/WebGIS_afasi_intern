@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!--外部CSS-->
+        <link rel = "stylesheet " href = "style.css">
+        <link rel="stylesheet" href="https://js.arcgis.com/3.29/esri/css/esri.css">
+        <!--外部JS-->
+        <script src="https://js.arcgis.com/3.29/"></script>
+        <script src = "jquery-3.4.1.min.js"></script>
+        <script src = "jquery.js"></script>
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <div class = "bar">
+            <select class = "SelectBox" id = "mySelect_1" onchange="layerChange_1()">
+            </select>
+
+            <select class = "SelectBox" id = "mySelect_2" onchange="layerChange_2()">
+            </select>
+        </div>
+
+        
+        <div id = "MapBox1"></div>
+        <div id = "MapBox2"></div>
+        
+        
+    </body>
+</html>
